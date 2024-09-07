@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+header {
+    padding: 30px;
+    background-color: #353437;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header div i {
+    color: white;
+    font-size: 50px;
+}
+
+header div nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header div nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header div nav ul li a:hover {
+    color: #a39b7e;
+    transition: 0,5;
+}
+
+#section-01 {
+    padding: 180px;
+    background-color: #53576b;
+}
+
+.div-imoveis div {
+    width: 200px;
+    height: 300px;
+    
+}
+
+.div-imoveis {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin-bottom: 30px;
+}
+
+.div-imoveis .div-01 {
+    background-image: url(imagens/cayman-islands-real-estate-4047675_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-02 {
+    background-image: url(imagens/exzenterhaus-2175925_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-03 {
+    background-image: url(imagens/house-185714_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-04 {
+    background-image: url(imagens/large-home-389271_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-05 {
+    background-image: url(imagens/luxury-home-2409518_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-imoveis .div-06 {
+    background-image: url(imagens/new-england-1336173_1280.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#section-02 {
+    padding: 180px;
+    background-image: url(imagens/architecture-7947724_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-02 div {
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #a39b7e6b;
+    padding: 15px;
+
+}
+
+#section-03 {
+    padding: 180px;
+    background-color: #7a7b7c;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#section-03 div {
+    padding: 25px;
+    width: 350px;
+    height: 300px;
+    background-color: #35343759;
+
+}
+
+footer {
+    padding: 30px;
+    background-color: #353437;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-img-footer i {
+    font-size: 50px;
+    color: white;
+}
+
+.div-sociais i {
+    background-color: rgb(46, 44, 44);
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.div-list-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
